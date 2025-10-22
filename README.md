@@ -21,12 +21,21 @@ Deployment: GitHub Pages
 
 🌐 Live Demo & Source Code
 
-🔗 Live Portfolio: Click Here
+🔗 Live Portfolio: https://Meghanaa47.github.io/MyWebsite/
 
-💻 GitHub Repository: Devi Portfolio Repo
+💻 GitHub Repository: https://github.com/Meghanaa47/MyWebsite
+
 📝 Author
 
-👩‍💻Devi Kontham
+👩‍💻 Devi Kontham
 A passionate software developer focused on building interactive and visually appealing web applications using React and Java.
 
-📫 Connect with me on LinkedIn
+📫 Connect with me
+
+LinkedIn: https://www.linkedin.com/in/devikontham47
+
+GitHub: https://github.com/Meghanaa47
+
+Email: meghanakontham28@gmail.com
+
+LeetCode: https://leetcode.com/u/meghana327/

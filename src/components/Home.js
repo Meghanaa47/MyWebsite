@@ -22,10 +22,10 @@ const Home = () => {
           <a href="mailto:meghanakontham28@gmail.com"><i className="fas fa-envelope"></i></a>
           <a href="https://leetcode.com/u/meghana327/" target="_blank"><i className="fas fa-code"></i></a>
         </div>
-
-      <a href="https://drive.google.com/file/d/1j4qhzO5HiJvCTY2WH_XY2ZDPQHjyMM5i/view?usp=drive_link" target="_blank" className="btn-resume">
+<a href="https://drive.google.com/file/d/1j4qhzO5HiJvCTY2WH_XY2ZDPQHjyMM5i/view?usp=sharing" target="_blank" className="btn-resume">
   View My Resume
 </a>
+
 
       </div>
 

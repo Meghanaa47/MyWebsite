@@ -1,0 +1,60 @@
+/* Section Styling */
+#skills {
+  padding: 40px 30px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #001f3f;
+}
+
+/* Skills container */
+.skills-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Individual skill as flex row */
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Skill name */
+.skill-name {
+  flex: 0.9;
+  text-align: left;
+  font-weight: 500;
+  color: #001f3f;
+}
+
+/* Progress bar container */
+.progress {
+  flex:4.5;
+  background: #9fd0f9;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 15px;
+  margin-bottom: 10px;
+}
+
+/* Progress fill */
+.progress-fill {
+  height: 100%;
+  background: #0995c4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+}

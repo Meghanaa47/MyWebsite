@@ -1,0 +1,119 @@
+/* Whole section */
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:90vh;
+  color: #001f3f;
+  padding:0px 80px;
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 1.5s ease;
+}
+
+/* Left section (intro) */
+.home-left {
+  flex: 1.5;
+  max-width: 750px; 
+  text-align: left;
+  animation: slideInLeft 1s ease forwards;
+  padding-left:20px;
+  margin-right:40px;
+}
+
+/* Right section (profile image) */
+.home-right {
+  flex: 0.7; /* decreased from 0.8 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 2s ease forwards;
+}
+
+
+.home-left h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color:#016586;
+  margin-bottom: 15px;
+}
+
+.home-left p {
+  font-size: 1.1rem;
+  color: #003b6f;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.home-left .about {
+  font-size: 1rem;
+  color: #004b80;
+  margin-top: 10px;
+  line-height: 1.7;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  margin: 25px 0;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  color: #027ea8;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #001f3f;
+  transform: scale(1.2);
+}
+
+/* Resume Button */
+.btn-resume {
+  display: inline-block;
+  padding: 12px 28px;
+  color: #001f3f;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid #027ea8;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  background-color:rgb(216, 248, 248);
+}
+
+.btn-resume:hover {
+  background: #027ea8;
+  color: white;
+  transform: scale(1.05);
+}
+.home-right img {
+  width: 280px;
+  border-radius: 50%;
+  box-shadow: 8px 6px 25px rgba(0, 4, 9, 0.6);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .home-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 60px 30px;
+  }
+
+  .home-left h1 { font-size: 2.4rem; }
+  .home-left p { font-size: 1rem; }
+  .home-right img { width: 200px; margin-bottom: 25px; }
+}
